@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Ocultar la imagen después de un tiempo en la página de inicio
   setTimeout(function() {
     mainImage.style.opacity = "0";
-  }, 5000);
+  }, 3000);
 
   /* Redirigir a main.html después de inicio.html
   if (window.location.pathname.endsWith("index.html")) {
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(function() {
         document.querySelector('main').style.display = 'block';
         document.querySelector('main').classList.add('fadeIn');
-      }, 300); 
+      }, 500); 
 });
 
 

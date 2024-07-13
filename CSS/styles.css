@@ -22,7 +22,9 @@ header {
   box-sizing: border-box;
   top: 0;
   left: 0;
+  z-index: 1000; /* Ajusta el valor según sea necesario */
 }
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -317,4 +319,22 @@ body.page-experiencia .overlay-image img {
   margin: 0 5% 0 5%;
 }
 
+/*-----------sevicios.html-----------*/
+body.page-servicios .intro{
+  margin-top: 5%;
+  color:#fff;
+  padding-bottom: 50px;
+  margin-left: 5%;
+}
+
+body.page-servicios .intro h2{
+  font-size:large;
+  padding-top: 15px;
+  
+}
+
+body.page-servicios .intro p{
+  font-size: medium;
+
+}
 
