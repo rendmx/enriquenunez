@@ -10,12 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
     mainImage.style.opacity = "0";
   }, 5000);
 
-  // Redirigir a main.html después de inicio.html
+  /* Redirigir a main.html después de inicio.html
   if (window.location.pathname.endsWith("index.html")) {
     setTimeout(function() {
       window.location.href = "main.html";
     }, 7000);
-  }
+  }*/
 
   // Mostrar el encabezado y el pie de página gradualmente
   setTimeout(function() {
